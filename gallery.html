@@ -1,42 +1,60 @@
-/* Gallery Section */
-.gallery-section {
-    ...
-}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <title>SV Betel Farm Exports - Field Photos</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#f5fff5;
+            margin:0;
+        }
+
+        h1{
+            text-align:center;
+            color:#0b6623;
+            margin-top:30px;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+            padding:30px;
+        }
+
+        .gallery img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            border-radius:10px;
+            box-shadow:0 5px 10px rgba(0,0,0,.2);
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-<section class="gallery-section">
-    <h2>🌿 Our Field Photos</h2>
-    <p>Take a look at our healthy and fresh farm fields.</p>
+<h1>🌿 SV Betel Farm Exports - Field Photos</h1>
 
-    <div class="gallery">
-        <div class="photo">
-            <img src="images/photo1.jpg" alt="Photo 1">
-        </div>
+<div class="gallery">
 
-        <div class="photo">
-            <img src="images/photo2.jpg" alt="Photo 2">
-        </div>
+<img src="images/field1.jpg">
 
-        <div class="photo">
-            <img src="images/photo3.jpg" alt="Photo 3">
-        </div>
-    </div>
+<img src="images/field2.jpg">
 
-    <br>
+<img src="images/field3.jpg">
 
-    <a href="index.html">⬅ Back to Home</a>
+<img src="images/field4.jpg">
 
-</section>
+<img src="images/field5.jpg">
+
+<img src="images/field6.jpg">
+
+</div>
 
 </body>
 </html>
-/* Gallery Section */
